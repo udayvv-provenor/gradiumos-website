@@ -1,0 +1,8 @@
+{
+  "name": "GradiumOS v4.1.1",
+  "description": "An end-to-end platform for competence development, readiness gap diagnosis, and verified evidence capture.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
