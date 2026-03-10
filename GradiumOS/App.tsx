@@ -699,7 +699,7 @@ const Navbar = () => {
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
             <LivelyButton 
-              onClick={() => window.open('https://app.provenorsystems.com', '_blank')} 
+              onClick={() => window.open('https://provenor-website.vercel.app', '_blank')} 
               variant="primary" 
               style={{ padding: isScrolled ? '0.55rem 1.4rem' : '0.8rem 2.2rem', background: '#fff', color: THEME.black }}
               className="nav-login-btn"
@@ -734,7 +734,7 @@ const Navbar = () => {
                <NavLink href="#simulations" mobile>Simulations</NavLink>
             </div>
             <div style={{ marginTop: '3.5rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-               <LivelyButton onClick={() => window.open('https://app.provenorsystems.com', '_blank')} variant="primary" style={{ width: '100%', background: '#fff', color: THEME.black, fontSize: '18px', padding: '1.25rem' }}>Log-in</LivelyButton>
+               <LivelyButton onClick={() => window.open('https://provenor-website.vercel.app', '_blank')} variant="primary" style={{ width: '100%', background: '#fff', color: THEME.black, fontSize: '18px', padding: '1.25rem' }}>Log-in</LivelyButton>
             </div>
           </motion.div>
         )}
@@ -1313,12 +1313,12 @@ const Footer = () => (
           </div>
           <p style={{ color: THEME.gray400, maxWidth: '400px', lineHeight: 1.6, fontSize: '1.1rem', letterSpacing: '0.01em', textAlign: 'left' }} className="footer-desc">An AI-powered employability operating system built for institutional deployment. Diagnostics, interventions, simulations, and evidence — in one integrated layer.</p>
         </div>
-        <div className="footer-col" style={{ textAlign: 'left' }}><h6 style={{ fontSize: '11px', fontWeight: 900, color: '#fff', textTransform: 'uppercase', marginBottom: '1.75rem', letterSpacing: '0.2em' }}>Platform</h6><ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1rem', color: THEME.gray500, fontSize: '14px', fontWeight: 600 }}><li><a href="#architecture" style={{color:"inherit",textDecoration:"none"}}>How it works</a></li><li><a href="#simulations" style={{color:"inherit",textDecoration:"none"}}>Simulation Engine</a></li><li><a href="#diagnosis" style={{color:"inherit",textDecoration:"none"}}>Diagnostics</a></li><li><a href="#standard" style={{color:"inherit",textDecoration:"none"}}>Readiness Standard</a></li><li><a href="https://provenorsystems.com" style={{color:"inherit",textDecoration:"none"}}>Provenor Systems ↗</a></li></ul></div>
+        <div className="footer-col" style={{ textAlign: 'left' }}><h6 style={{ fontSize: '11px', fontWeight: 900, color: '#fff', textTransform: 'uppercase', marginBottom: '1.75rem', letterSpacing: '0.2em' }}>Platform</h6><ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1rem', color: THEME.gray500, fontSize: '14px', fontWeight: 600 }}><li><a href="#architecture" style={{color:"inherit",textDecoration:"none"}}>How it works</a></li><li><a href="#simulations" style={{color:"inherit",textDecoration:"none"}}>Simulation Engine</a></li><li><a href="#diagnosis" style={{color:"inherit",textDecoration:"none"}}>Diagnostics</a></li><li><a href="#standard" style={{color:"inherit",textDecoration:"none"}}>Readiness Standard</a></li><li><a href="https://provenor-website.vercel.app" style={{color:"inherit",textDecoration:"none"}}>Provenor Systems ↗</a></li></ul></div>
         <div className="footer-col" style={{ textAlign: 'left' }}><h6 style={{ fontSize: '11px', fontWeight: 900, color: '#fff', textTransform: 'uppercase', marginBottom: '1.75rem', letterSpacing: '0.2em' }}>Connect</h6><div style={{ display: 'flex', gap: '1.25rem' }}><a href="https://x.com/provenorsystems" target="_blank" rel="noopener noreferrer" style={{color:"inherit"}}><Twitter size={24} color={THEME.gray400} style={{ cursor: 'pointer' }} /></a><a href="https://github.com/provenorsystems" target="_blank" rel="noopener noreferrer" style={{color:"inherit"}}><Github size={24} color={THEME.gray400} style={{ cursor: 'pointer' }} /></a><a href="https://linkedin.com/company/provenorsystems" target="_blank" rel="noopener noreferrer" style={{color:"inherit"}}><Linkedin size={24} color={THEME.gray400} style={{ cursor: 'pointer' }} /></a></div></div>
       </div>
       <div style={{ ...styles.flexBetween, paddingTop: '2.5rem', borderTop: `1.5px solid ${THEME.zinc900}`, fontSize: '11px', color: THEME.zinc700, fontFamily: 'JetBrains Mono', textTransform: 'uppercase', letterSpacing: '0.2em', textAlign: 'left' }} className="footer-bottom">
         <div>
-          <div style={{ fontSize: '11px', fontWeight: 400, color: THEME.gray500, marginBottom: '5px' }}><a href="https://provenorsystems.com" style={{color:"inherit",textDecoration:"none"}}>BY <b style={{ fontWeight: 800, color: '#fff' }}>PROVENOR</b> SYSTEMS ↗</a></div>
+          <div style={{ fontSize: '11px', fontWeight: 400, color: THEME.gray500, marginBottom: '5px' }}><a href="https://provenor-website.vercel.app" style={{color:"inherit",textDecoration:"none"}}>BY <b style={{ fontWeight: 800, color: '#fff' }}>PROVENOR</b> SYSTEMS ↗</a></div>
           <div style={{ opacity: 0.8 }}>&copy; 2026 GRADIUM OS. ALL RIGHTS RESERVED.</div>
         </div>
         <div />
